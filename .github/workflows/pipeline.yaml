@@ -34,10 +34,10 @@ jobs:
 
       - name: Build Image
         run: | 
-          docker build -t dudamegc/Aula-Devops:1.0 .
+          docker build -t dudamegc/aula-devops:1.0 .
 
       - name: Push Image
         run: | 
-          docker push dudamegc/Aula-Devops:1.0
+          docker push dudamegc/aula-devops:1.0
 
 
